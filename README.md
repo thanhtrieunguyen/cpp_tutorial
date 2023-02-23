@@ -3,26 +3,32 @@
 ````c++
 #include <iostream>
 using namespace std;
-
 int main()
 {
+	int numbers[20];
 	int n, x;
+	
 	cout << "n = ";
 	cin >> n;
-	cout << "x = ";
-	cin >> x;
-	int numbers[n];
 	
+	cout << "Nhap mang: ";
 	for (int i = 0; i < n; i++)
 	{
-		cout << "Numbers [" << i << "] = ";
-		cin >> numbers[i]; 
+		cin >> numbers[i];
 	}
-	cout << endl;
-		for (int i = 0; i < n; i++)
+	
+	cout << "x = ";
+	cin >> x;
+	
+	numbers[n] = x;
+	n++; 
+	
+	cout << "Mang sau khi them: ";
+	for(int i = 0; i < n; i++)
 	{
-		cout << "Numbers [" << i << "] = " << numbers[i] << x << endl;
+		cout << numbers[i] << " ";
 	}
+	
 	
 	return 0;
 }
