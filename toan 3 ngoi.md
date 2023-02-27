@@ -1,6 +1,6 @@
 # cpp_tutorial
 ### Nhập vào 2 số nguyên dương `a` và `b` (a và b không trùng giá trị). Hãy in ra màn hình số nhỏ hơn (dùng toán tử 3 ngôi)
-   
+   ```cpp
    	#include <iostream>
 
     	using namespace std;
@@ -24,3 +24,4 @@
 	
    	 return 0;
    	 }
+```
